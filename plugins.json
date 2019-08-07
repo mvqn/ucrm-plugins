@@ -2,7 +2,7 @@
     "plugins": [
         {
             "name": "argentina-afip-invoices",
-            "displayName": "Facturas Argentina AFIP (TEST)",
+            "displayName": "Facturas Argentina AFIP",
             "description": "Plugin para obtener CAE (Facturacion electronica) en Argentina",
             "url": "https:\/\/github.com\/Ubiquiti-App\/UCRM-plugins\/tree\/master\/plugins\/argentina-afip-invoices",
             "version": "1.0.1",
@@ -195,6 +195,23 @@
             },
             "author": "Charuwts, LLC",
             "zipUrl": "https:\/\/github.com\/Ubiquiti-App\/UCRM-plugins\/raw\/master\/plugins\/ucrm-client-signup\/ucrm-client-signup.zip"
+        },
+        {
+            "name": "plugin-template",
+            "displayName": "Plugin Template",
+            "description": "A simple Plugin template for UCRM.",
+            "url": "https:\/\/github.com\/ucrm-plugins\/plugin-template",
+            "version": "1.0.1",
+            "ucrmVersionCompliancy": {
+                "min": "2.16.4",
+                "max": null
+            },
+            "unmsVersionCompliancy": {
+                "min": "1.0.0-beta.8",
+                "max": null
+            },
+            "author": "Ryan Spaeth",
+            "zipUrl": "https:\/\/github.com\/ucrm-plugins\/plugin-template\/raw\/master\/plugin-template.zip"
         }
     ]
 }
